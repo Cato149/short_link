@@ -1,0 +1,9 @@
+env: "local"
+redis_url: "http://localhost:6379"
+storage_path: "./storage/storage.db"
+http_server:
+  address: "localhost:8081"
+  timeout: 4s
+  idle_timeout: 40s
+  user: "root"
+  password: "password"
